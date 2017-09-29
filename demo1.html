@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/react.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/react-dom.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/browser.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="demo"></div>
+		<script type="text/babel">
+			ReactDOM.render(  /*是react最基本方法用于将模板转化为HTML，并插入指定的DOM节点
+				ReactDOM.render(remplate,targetDOM),里面有两个参数，第一个是创建模板，多个dom元素外层只需要
+				一个标签进行包裹，比如<div>。第二个参数是插入该模板的目标位置。*/
+				<h1>Hello World!</h1>,
+				document.getElementById('demo')
+			)
+		</script>
+	</body>
+</html>
